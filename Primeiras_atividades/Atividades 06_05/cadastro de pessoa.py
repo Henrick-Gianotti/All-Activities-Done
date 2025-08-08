@@ -1,0 +1,30 @@
+#Cadastro de pessoa
+
+class Pessoa():
+    def __init__(self):
+        self.nome = input("Nome: ")
+        self.cpf = input("cpf: ")
+        self.rg = input("RG: ")
+        self.data = input("Data de nascimento: ")
+        self.sexo = input("Sexo: ")
+        self.peso = input("Peso: ")
+        self.sangue = input("Tipo sanguíneo: ")
+        self.renda = input("Renda mensal: ")
+        self.endereço = input("Endereço: ")
+        self.telefone = input("Telefone: ")
+        self.cidade = input("Cidade: ")
+        self.estado = input("Estado: ")
+
+cadastro=Pessoa()
+print(cadastro.nome)
+print(cadastro.cpf)
+print(cadastro.rg)
+print(cadastro.data)
+print(cadastro.sexo)
+print(cadastro.peso)
+print(cadastro.sangue)
+print(cadastro.renda)
+print(cadastro.endereço)
+print(cadastro.telefone)
+print(cadastro.cidade)
+print(cadastro.estado)
